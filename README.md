@@ -6,7 +6,6 @@ Submitted by: Rhian Chavez
 
 Time spent: 2 hours spent in total
 
-
 ## Notes
 
 Describe any challenges encountered while building the app.
