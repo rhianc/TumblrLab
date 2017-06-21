@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		093DAFD41EFAEBAD0002A959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DAFD31EFAEBAD0002A959 /* AppDelegate.swift */; };
-		093DAFD61EFAEBAD0002A959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DAFD51EFAEBAD0002A959 /* ViewController.swift */; };
 		093DAFD91EFAEBAD0002A959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DAFD71EFAEBAD0002A959 /* Main.storyboard */; };
 		093DAFDB1EFAEBAD0002A959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093DAFDA1EFAEBAD0002A959 /* Assets.xcassets */; };
 		093DAFDE1EFAEBAD0002A959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DAFDC1EFAEBAD0002A959 /* LaunchScreen.storyboard */; };
 		093DAFE91EFAEBAE0002A959 /* Day2LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DAFE81EFAEBAE0002A959 /* Day2LabTests.swift */; };
 		093DAFF41EFAEBAE0002A959 /* Day2LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DAFF31EFAEBAE0002A959 /* Day2LabUITests.swift */; };
+		093DB0021EFAEE920002A959 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DB0011EFAEE920002A959 /* PhotosViewController.swift */; };
+		093DB0061EFAF5690002A959 /* PhotoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DB0051EFAF5690002A959 /* PhotoCellTableViewCell.swift */; };
+		458721B10173E9184E283AD8 /* Pods_Day2LabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB28F1E09B782D4ECF587B0 /* Pods_Day2LabUITests.framework */; };
+		E566967C4CA409914AE649E4 /* Pods_Day2LabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B248BD5FF7D93D28FE18037E /* Pods_Day2LabTests.framework */; };
+		FCCFB02F45BA4F55D25DA20C /* Pods_Day2Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB9EEFFBC4402A84AF964BF /* Pods_Day2Lab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		093DAFD01EFAEBAD0002A959 /* Day2Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day2Lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093DAFD31EFAEBAD0002A959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		093DAFD51EFAEBAD0002A959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		093DAFD81EFAEBAD0002A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		093DAFDA1EFAEBAD0002A959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		093DAFDD1EFAEBAD0002A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,17 @@
 		093DAFEF1EFAEBAE0002A959 /* Day2LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2LabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		093DAFF31EFAEBAE0002A959 /* Day2LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2LabUITests.swift; sourceTree = "<group>"; };
 		093DAFF51EFAEBAE0002A959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093DB0011EFAEE920002A959 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		093DB0051EFAF5690002A959 /* PhotoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCellTableViewCell.swift; sourceTree = "<group>"; };
+		2AB28F1E09B782D4ECF587B0 /* Pods_Day2LabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day2LabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590F79AB6AF6C987E62E49CA /* Pods-Day2LabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2LabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day2LabTests/Pods-Day2LabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B68D031D62A204DFCC0A23C /* Pods-Day2LabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2LabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Day2LabUITests/Pods-Day2LabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3118291803BF5BD86411D2 /* Pods-Day2LabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2LabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day2LabUITests/Pods-Day2LabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B248BD5FF7D93D28FE18037E /* Pods_Day2LabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day2LabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B0F9F977C6C13051A02E7B /* Pods-Day2Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day2Lab/Pods-Day2Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB77EDDF7DB923DEFDA88F4 /* Pods-Day2LabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2LabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Day2LabTests/Pods-Day2LabTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCB9EEFFBC4402A84AF964BF /* Pods_Day2Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day2Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D119DFFC4ED7C22B8A9E2940 /* Pods-Day2Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day2Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-Day2Lab/Pods-Day2Lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCFB02F45BA4F55D25DA20C /* Pods_Day2Lab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E566967C4CA409914AE649E4 /* Pods_Day2LabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458721B10173E9184E283AD8 /* Pods_Day2LabUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				093DAFE71EFAEBAE0002A959 /* Day2LabTests */,
 				093DAFF21EFAEBAE0002A959 /* Day2LabUITests */,
 				093DAFD11EFAEBAD0002A959 /* Products */,
+				E3C46590C5722F89EC2A5918 /* Pods */,
+				9C791B3FAC86526A0B1FBB09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				093DAFD31EFAEBAD0002A959 /* AppDelegate.swift */,
-				093DAFD51EFAEBAD0002A959 /* ViewController.swift */,
 				093DAFD71EFAEBAD0002A959 /* Main.storyboard */,
 				093DAFDA1EFAEBAD0002A959 /* Assets.xcassets */,
 				093DAFDC1EFAEBAD0002A959 /* LaunchScreen.storyboard */,
 				093DAFDF1EFAEBAD0002A959 /* Info.plist */,
+				093DB0011EFAEE920002A959 /* PhotosViewController.swift */,
+				093DB0051EFAF5690002A959 /* PhotoCellTableViewCell.swift */,
 			);
 			path = Day2Lab;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = Day2LabUITests;
 			sourceTree = "<group>";
 		};
+		9C791B3FAC86526A0B1FBB09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB9EEFFBC4402A84AF964BF /* Pods_Day2Lab.framework */,
+				B248BD5FF7D93D28FE18037E /* Pods_Day2LabTests.framework */,
+				2AB28F1E09B782D4ECF587B0 /* Pods_Day2LabUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C46590C5722F89EC2A5918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B0F9F977C6C13051A02E7B /* Pods-Day2Lab.debug.xcconfig */,
+				D119DFFC4ED7C22B8A9E2940 /* Pods-Day2Lab.release.xcconfig */,
+				590F79AB6AF6C987E62E49CA /* Pods-Day2LabTests.debug.xcconfig */,
+				BFB77EDDF7DB923DEFDA88F4 /* Pods-Day2LabTests.release.xcconfig */,
+				9C3118291803BF5BD86411D2 /* Pods-Day2LabUITests.debug.xcconfig */,
+				8B68D031D62A204DFCC0A23C /* Pods-Day2LabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093DAFF81EFAEBAE0002A959 /* Build configuration list for PBXNativeTarget "Day2Lab" */;
 			buildPhases = (
+				AFF844C932E3D82FDB6FC393 /* [CP] Check Pods Manifest.lock */,
 				093DAFCC1EFAEBAD0002A959 /* Sources */,
 				093DAFCD1EFAEBAD0002A959 /* Frameworks */,
 				093DAFCE1EFAEBAD0002A959 /* Resources */,
+				0A59DB5FDC5C5358B7C02951 /* [CP] Embed Pods Frameworks */,
+				BEAE2E22CACCB9D14F3E4089 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093DAFFB1EFAEBAE0002A959 /* Build configuration list for PBXNativeTarget "Day2LabTests" */;
 			buildPhases = (
+				C6C5A6438728816EBD74B184 /* [CP] Check Pods Manifest.lock */,
 				093DAFE01EFAEBAD0002A959 /* Sources */,
 				093DAFE11EFAEBAD0002A959 /* Frameworks */,
 				093DAFE21EFAEBAD0002A959 /* Resources */,
+				14589364659375B003DDD5B1 /* [CP] Embed Pods Frameworks */,
+				D586F82C1ED666262D9CD916 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093DAFFE1EFAEBAE0002A959 /* Build configuration list for PBXNativeTarget "Day2LabUITests" */;
 			buildPhases = (
+				DB16AB5975EEB91F5B833B4B /* [CP] Check Pods Manifest.lock */,
 				093DAFEB1EFAEBAE0002A959 /* Sources */,
 				093DAFEC1EFAEBAE0002A959 /* Frameworks */,
 				093DAFED1EFAEBAE0002A959 /* Resources */,
+				69870F8C9255B933BA63E872 /* [CP] Embed Pods Frameworks */,
+				4EDDA12906D0036E354600DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +309,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A59DB5FDC5C5358B7C02951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day2Lab/Pods-Day2Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14589364659375B003DDD5B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day2LabTests/Pods-Day2LabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EDDA12906D0036E354600DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day2LabUITests/Pods-Day2LabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69870F8C9255B933BA63E872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day2LabUITests/Pods-Day2LabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF844C932E3D82FDB6FC393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAE2E22CACCB9D14F3E4089 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day2Lab/Pods-Day2Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C5A6438728816EBD74B184 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D586F82C1ED666262D9CD916 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day2LabTests/Pods-Day2LabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB16AB5975EEB91F5B833B4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		093DAFCC1EFAEBAD0002A959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093DAFD61EFAEBAD0002A959 /* ViewController.swift in Sources */,
 				093DAFD41EFAEBAD0002A959 /* AppDelegate.swift in Sources */,
+				093DB0061EFAF5690002A959 /* PhotoCellTableViewCell.swift in Sources */,
+				093DB0021EFAEE920002A959 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +604,7 @@
 		};
 		093DAFF91EFAEBAE0002A959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B0F9F977C6C13051A02E7B /* Pods-Day2Lab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S5MHKF47DJ;
@@ -426,6 +618,7 @@
 		};
 		093DAFFA1EFAEBAE0002A959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D119DFFC4ED7C22B8A9E2940 /* Pods-Day2Lab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S5MHKF47DJ;
@@ -439,6 +632,7 @@
 		};
 		093DAFFC1EFAEBAE0002A959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590F79AB6AF6C987E62E49CA /* Pods-Day2LabTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		093DAFFD1EFAEBAE0002A959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB77EDDF7DB923DEFDA88F4 /* Pods-Day2LabTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		093DAFFF1EFAEBAE0002A959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3118291803BF5BD86411D2 /* Pods-Day2LabUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S5MHKF47DJ;
@@ -483,6 +679,7 @@
 		};
 		093DB0001EFAEBAE0002A959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B68D031D62A204DFCC0A23C /* Pods-Day2LabUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S5MHKF47DJ;
@@ -514,6 +711,7 @@
 				093DAFFA1EFAEBAE0002A959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		093DAFFB1EFAEBAE0002A959 /* Build configuration list for PBXNativeTarget "Day2LabTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				093DAFFD1EFAEBAE0002A959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		093DAFFE1EFAEBAE0002A959 /* Build configuration list for PBXNativeTarget "Day2LabUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				093DB0001EFAEBAE0002A959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
