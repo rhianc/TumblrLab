@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090695421EFC484D00A49F47 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090695411EFC484D00A49F47 /* PhotoDetailsViewController.swift */; };
+		090695441EFC6D6C00A49F47 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090695431EFC6D6C00A49F47 /* InfiniteScrollActivityView.swift */; };
 		093DAFD41EFAEBAD0002A959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DAFD31EFAEBAD0002A959 /* AppDelegate.swift */; };
 		093DAFD91EFAEBAD0002A959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DAFD71EFAEBAD0002A959 /* Main.storyboard */; };
 		093DAFDB1EFAEBAD0002A959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093DAFDA1EFAEBAD0002A959 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090695411EFC484D00A49F47 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		090695431EFC6D6C00A49F47 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
 		093DAFD01EFAEBAD0002A959 /* Day2Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day2Lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093DAFD31EFAEBAD0002A959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		093DAFD81EFAEBAD0002A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				093DAFDF1EFAEBAD0002A959 /* Info.plist */,
 				093DB0011EFAEE920002A959 /* PhotosViewController.swift */,
 				093DB0051EFAF5690002A959 /* PhotoCellTableViewCell.swift */,
+				090695411EFC484D00A49F47 /* PhotoDetailsViewController.swift */,
+				090695431EFC6D6C00A49F47 /* InfiniteScrollActivityView.swift */,
 			);
 			path = Day2Lab;
 			sourceTree = "<group>";
@@ -452,6 +458,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090695441EFC6D6C00A49F47 /* InfiniteScrollActivityView.swift in Sources */,
+				090695421EFC484D00A49F47 /* PhotoDetailsViewController.swift in Sources */,
 				093DAFD41EFAEBAD0002A959 /* AppDelegate.swift in Sources */,
 				093DB0061EFAF5690002A959 /* PhotoCellTableViewCell.swift in Sources */,
 				093DB0021EFAEE920002A959 /* PhotosViewController.swift in Sources */,
